@@ -20,11 +20,13 @@ body {
     font-family: 'minimal';
     font-size: 16px;
 }
+
 h1, h2{
     font-family: 'space';
     font-size: 48px;
     font-weight: normal;
 }
+
 p {
     line-height: 1.4em;
     letter-spacing: 0.01em;
@@ -32,61 +34,26 @@ p {
     padding: 0px 10px;
 }
 
-/*
-nav {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 80px;
-}
-
-
-a {
-    text-decoration: none;
-    color: #2b292c;
-    padding: 5px 20px;
-    border-bottom: solid 1px #2b292c;
-    border-right: solid 1px #2b292c;
-}
-*/
-
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
     background-color: #2b292c;
+
 }
 
 
 a {
     text-decoration: none;
     color: #f9f9f9;
-    padding: 0px 20px;
+    padding: 10px;
 }
 
-
-/*
-a:first-child {
-
-    border-right: solid 1px #2b292c;
-    padding-left: 25px;
-}
-
-a:last-child {
-
-    border-right: solid 0px #2b292c;
-    padding-right: 25px;
-}
-*/
 a:hover {
-
     color: #2b292c;
     background-color: #f9f9f9;
-
 }
-
-
-
 
 h2 {
     width: 100%;
