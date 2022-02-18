@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> def Diego():</title>
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        <link rel="shortcut icon" href="{% static 'icons/favicon.svg' %}">
+    </head>
+    <body>
+        <nav>
+            <a href="#">mystuff</a>
+            <a href="#">contact</a>
+        </nav>
+        <div class="contenido">
+                <section>
+                    <h1>def Diego():</h1>
+                    <h2><span>WHOISDIEGO<span></h1>
+                    <div class="info">
+                        <p>Hi, I'm Diego Morales.</p>
+                        <p>I'm a web developer whos loves work with <strong>Python</strong>, currently I'm pursuing a master's degree in software engineerings.</p>
+                        <p class="importante"><strong>At the moment I'm engaged to simple, minimal design & typography and this is my first online porfolio. Feel free to explore & tell me what you think about it!</strong></p>
+                    </div>
+                </section>
+            <hr>
+                <section>
+                    <h2><span>RECENT WORK<span></h1>
+                    <div class="info">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ullamcorper non nunc id maximus. Mauris suscipit, purus sed dictum egestas, metus justo consectetur arcu, quis scelerisque ante purus non justo.</p>
+                </section>
+                <div class="imgGroup">
+                    <img src="{% static 'images/work1.png' %}" alt="diego">
+                    <img src="{% static 'images/work2.png' %}" alt="">
+                    <img src="{% static 'images/work3.png' %}" alt="">
+                </div>
+            <hr>
+            <section>
+                <h2><span>EDUCATION<span></h1>
+                <div class="info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ullamcorper non nunc id maximus. Mauris suscipit, purus sed dictum egestas, metus justo consectetur arcu, quis scelerisque ante purus non justo.</p>
+                    <p class="importante"><strong>At the moment I'm engaged to simple, minimal design & typography. This is my first online porfolio. Feel free to explore & tell me what you think about it!</strong></p>
+                </div>
+            </section>
+        <hr>
+        </div>
+
+    </body>
+</html>
