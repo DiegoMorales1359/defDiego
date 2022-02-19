@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<div class="contenido">
+    <section>
+        <h1>def about():</h1>
+        <h2><span>DIEGO_MORALES<span></h2>
+        <div class="info">
+            <p>I'm a web developer based in <strong>Guadalajara, Mexico</strong> whos loves work with <strong>Python</strong>, and when I have option Django.</p>
+        </div>
+    </section>
+    <div class="imgGroup">
+        <img src="{% static 'images/meBigger.jpg' %}" alt="" width="500px">
+    </div>
+    <hr>
+    <section>
+        <h2><span>SKILLS<span></h2>
+        <div class="info">
+            <div class="wrapper">
+                <div class="skill">
+                    <img src="{% static 'icons/python.svg' %}" alt="" width="20px">
+                    <p>Python</p>
+                </div>
+                <p>I use Python daily while building and maintaining webapps, wwriting scripts and solving personal problems.</p>
+            </div>
+            <div class="wrapper">
+                <p>I use Python daily while building and maintaining webapps, wwriting scripts and solving personal problems.</p>
+
+                <div class="skill">
+                    <img src="{% static 'icons/django.svg' %}" alt="" width="20px">
+                    <p>Django</p>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="skill">
+                    <img src="{% static 'icons/html5.png' %}" alt="" width="20px">
+                    <p>html</p>
+                </div>
+                <p>I use Python daily while building and maintaining webapps, wwriting scripts and solving personal problems.</p>
+            </div>
+
+            <div class="wrapper">
+                <p>I use Python daily while building and maintaining webapps, wwriting scripts and solving personal problems.</p>
+                <div class="skill">
+                    <img src="{% static 'icons/css3.svg' %}" alt="" width="20px">
+                    <p>ccs</p>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="skill">
+                    <img src="{% static 'icons/artificial.png' %}" alt="" width="20px">
+                    <p>AI</p>
+                </div>
+                <p>I use Python daily while building and maintaining webapps, wwriting scripts and solving personal problems.</p>
+            </div>
+
+            <div class="wrapper">
+                <p>I use Python daily while building and maintaining webapps, wwriting scripts and solving personal problems.</p>
+                <div class="skill">
+                    <img src="{% static 'icons/c.png' %}" alt="" width="20px">
+                    <p>C</p>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="skill">
+                    <img src="{% static 'icons/micro.png' %}" alt="" width="20px">
+                    <p>Micros</p>
+                </div>
+                <p>I use Python daily while building and maintaining webapps, wwriting scripts and solving personal problems.</p>
+            </div>
+
+
+        </div>
+    </section>
+</div>
+{% endblock content %}
