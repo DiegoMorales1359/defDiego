@@ -55,6 +55,17 @@ a:hover {
     background-color: #f9f9f9;
 }
 
+a.inlineLink {
+    text-decoration: none;
+    color: #2b292c;
+    width: auto;
+}
+
+a.inlineLink:hover {
+    text-decoration: underline;
+    color: black;
+}
+
 h2 {
     width: 100%;
     text-align: center;
@@ -67,6 +78,15 @@ h2 span {
     background: #f9f9f9;
     padding-left: 20px;
 }
+
+li {
+    padding: 15px 0px;
+}
+
+h3 {
+        padding: 15px;
+}
+
 
 .contenido{
     display: flex;
@@ -108,6 +128,7 @@ hr {
 }
 footer {
     height: 30px;
+    padding-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,7 +139,6 @@ footer {
 p.footerP {
     padding: 0px;
 }
-
 
 
 @media only screen and (max-width: 900px) {
