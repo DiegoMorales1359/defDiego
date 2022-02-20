@@ -116,6 +116,10 @@ h1{
 }
 
 
+img {
+    padding-left: 10px;
+}
+
 img.generic {
     margin: 20px;
     border: solid 1px black;
@@ -125,6 +129,10 @@ hr {
     width: 100%;
     color: #eaedf0;
     margin: 50px 0px;
+}
+hr:last-of-type {
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 footer {
     height: 30px;
